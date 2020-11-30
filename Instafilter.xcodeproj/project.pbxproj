@@ -64,8 +64,8 @@
 				9159D23325657B6500414B92 /* Assets.xcassets */,
 				9159D23825657B6500414B92 /* LaunchScreen.storyboard */,
 				9159D23B25657B6500414B92 /* Info.plist */,
-				9159D23525657B6500414B92 /* Preview Content */,
 				9159D2432566CD5B00414B92 /* ImagePicker.swift */,
+				9159D23525657B6500414B92 /* Preview Content */,
 			);
 			path = Instafilter;
 			sourceTree = "<group>";
