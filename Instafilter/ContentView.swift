@@ -118,8 +118,14 @@ struct ContentView: View {
 
         if let cgimg = context.createCGImage(outputImage, from: outputImage.extent) {
             let uiImage = UIImage(cgImage: cgimg)
-            image = Image(uiImage: uiImage)
-            processedImage = uiImage
+            let imageSaver = ImageSaver()
+            imageSaver.successHandler = {
+                print("success")
+            }
+            imageSaver.errorHandler = {
+                print("\($0.localizedDescription)")
+            }
+            imageSaver.writeToPhotoAlbum(image: processedImage)
         }
     }
 

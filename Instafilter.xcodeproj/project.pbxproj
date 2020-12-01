@@ -41,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		912E45152576229600072CFE /* Image-Handling */ = {
+			isa = PBXGroup;
+			children = (
+				9135B7ED25755DE000EBBF3B /* ImageSaver.swift */,
+				9159D2432566CD5B00414B92 /* ImagePicker.swift */,
+			);
+			path = "Image-Handling";
+			sourceTree = "<group>";
+		};
 		9159D22125657B6000414B92 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +69,14 @@
 		9159D22C25657B6000414B92 /* Instafilter */ = {
 			isa = PBXGroup;
 			children = (
+				912E45152576229600072CFE /* Image-Handling */,
 				9159D22D25657B6000414B92 /* AppDelegate.swift */,
 				9159D22F25657B6000414B92 /* SceneDelegate.swift */,
 				9159D23125657B6000414B92 /* ContentView.swift */,
 				9159D23325657B6500414B92 /* Assets.xcassets */,
 				9159D23825657B6500414B92 /* LaunchScreen.storyboard */,
 				9159D23B25657B6500414B92 /* Info.plist */,
-				9159D2432566CD5B00414B92 /* ImagePicker.swift */,
 				9159D23525657B6500414B92 /* Preview Content */,
-				9135B7ED25755DE000EBBF3B /* ImageSaver.swift */,
 			);
 			path = Instafilter;
 			sourceTree = "<group>";
